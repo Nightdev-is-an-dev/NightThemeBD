@@ -1,0 +1,15 @@
+/* Spotify covers go wheeeee */
+/* profile */
+.assetsLargeImageSpotify-17ME3M {
+  animation: spin 3s linear infinite;
+  border-radius: 50%
+}
+/* the animation thingy */
+@keyframes spin { /*I did not know that there is a thing called keyframes atleast now I know*/
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

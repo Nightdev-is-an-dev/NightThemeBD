@@ -1,0 +1,17 @@
+/*Title Bar*/
+.wordmarkWindows-2dq6rw {
+  display: none;
+}
+.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::after {
+  content: var(--title-bar-content);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: var(--title-bar-color);
+  display: block;
+  height: 16px;
+  width: fit-content;
+  pointer-events: none;
+  font-size: 14px;
+  font-weight: bold;
+}
